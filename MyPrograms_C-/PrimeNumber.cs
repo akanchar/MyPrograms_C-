@@ -13,7 +13,7 @@ namespace MyPrograms_C_
     /// </summary>
     /// <param name="numberToCheck">Pass the number to checked for primeness</param>
     /// <returns>True or false based on whether the parameter received is Prime or not</returns>
-    bool checkPrime(int numberToCheck)
+    internal bool checkPrime(int numberToCheck)
     {
       // Returns false if the number if less than or equal to '1'
       // Returns true if the number is equal to '2' as it is the starting prime number
@@ -37,7 +37,7 @@ namespace MyPrograms_C_
     /// </summary>
     /// <param name="numberOfPrimes">Number of primes needed</param>
     /// <returns>Array of ints which consisting of first N prime numbers</returns>
-    int[] first_N_Primes(int numberOfPrimes)
+    internal int[] first_N_Primes(int numberOfPrimes)
     {
       int count = 0, startingNumber = 2;
       int[] firstNPrimes = new int[numberOfPrimes];
@@ -65,7 +65,7 @@ namespace MyPrograms_C_
     /// <param name="rangeStart">Starting number range</param>
     /// <param name="rangeEnd">Ending number range</param>
     /// <returns>Total prime numbers in between the given range of numbers as an array of ints</returns>
-    int[] rangedPrimes(int rangeStart, int rangeEnd)
+    internal int[] rangedPrimes(int rangeStart, int rangeEnd)
     {
       int[] primeNumbers;
       ArrayList primeNumbersList = new ArrayList();
