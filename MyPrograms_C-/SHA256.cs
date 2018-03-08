@@ -6,9 +6,5 @@
     const int initialPrimes = 8;
     const int secondaryPrimes = 64;
     const string inputString = "abc";
-    static void Main(string[] args)
-    {
-
-    }
-  }
+   }
 }
